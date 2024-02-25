@@ -69,24 +69,41 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Qiang Yuan.`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        I graduated from ECE and CS concurrent master on Dec, 2023 from University of Florida, currently I am a <strong className="text-stone-100">Cloud Engineer</strong> contractor, currently working
+        at <strong className="text-stone-100">Novineer, Inc</strong> helping build a Lambda, S3, dyanmoDB, and write test, maintain CICD pipeline. I am open to any remote/onsite fulltime software Engineer in US.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
+        In my free time time, I would like to learning <strong className="text-stone-100">Cooking</strong>,
+         <strong className="text-stone-100">Workout</strong>, or learning newest technologies in {' '}
+        <strong className="text-stone-100">ML and Could</strong>.
+      </p> */}
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+  I graduated with  <strong className="text-stone-100">a concurrent Master of Science in CS and ECE</strong> in December 2023 from the <strong className="text-stone-100">University of Florida</strong>. 
+  Currently, I am a <strong className="text-stone-100">Cloud Engineer</strong> contractor at <strong className="text-stone-100">Novineer, Inc.</strong>, 
+  where I contribute to building Lambda functions, managing S3 storage, and DynamoDB, as well as writing tests and maintaining CI/CD pipelines. 
+</p>
+<p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+ I am actively seeking a full-time position as a <strong className="text-emphasis">Software Engineer</strong>, open to both remote and onsite opportunities in the US. In my leisure, I enjoy learning about <strong className="text-stone-100">cooking</strong> and <strong className="text-stone-100">workout</strong> routines, as well as keeping up with the latest technologies in <strong className="text-stone-100">Machine Learning and Cloud Computing</strong>.
+</p>
+      {/* <div className="technical-skills">
+  <h1 className="section-title text-stone-200">Technical Skills</h1>
+  <ul className="skills-list text-stone-200">
+    <li><strong>Programming Languages:</strong> Java, Python, C/C++, JavaScript, Linux Shell scripting</li>
+    <li><strong>Tools & Frameworks:</strong> Git, AWS, Docker, Maven, Node.js, Anaconda, Pthread, Pytorch</li>
+    <li><strong>Database:</strong> Oracle, MySQL, DynamoDB, SQLite</li>
+  </ul>
+</div> */}
+
     </>
+    
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/QiangYuan_24_1.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -108,12 +125,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Gainesville, FL', Icon: MapIcon},
+    {label: 'Age', text: '26', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Cooking, workout, snowboard, diving', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of FLorida', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'contractor of Novineer, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,17 +142,17 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Chinese',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+        name: 'English',
+        level: 9,
+      }
+      // {
+      //   name: 'Spanish',
+      //   level: 3,
+      // },
     ],
   },
   {
@@ -143,49 +160,58 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Typescript',
+        level: 5,
       },
+      // {
+      //   name: 'GraphQL',
+      //   level: 6,
+      // },
     ],
   },
   {
     name: 'Backend development',
     skills: [
+
+      {
+        name: 'Java',
+        level: 9,
+      },
       {
         name: 'Node.js',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Python',
+        level: 8,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'C/C++',
+        level: 7,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Others',
     skills: [
       {
-        name: 'React Native',
+        name: 'Github',
+        level: 10,
+      },
+      {
+        name: 'Linux',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'AWS',
+        level: 9,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'pytorch',
+        level: 6,
       },
     ],
   },
@@ -268,42 +294,56 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Sep 2015 - Jul 2019',
+    location: 'Guangzhou University',
+    title: 'Bachelor in Software Engineering',
+    content: <p>Related Course:</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Jal 2021 - Dec 2023',
+    location: 'University of Florida',
+    title: 'Concurrent master in Computer Science and Electrical & Computer Engineering',
+    content: <p>Related Courses:</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Sep 2023 - Present',
+    location: 'Novineer, Inc',
+    title: 'Cloud Engineer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <>
+      <p> • Orchestrated AWS Elastic Container Service (ECS) deployments, optimizing Docker container efficiency and scalability with task definitions and Auto Scaling Groups (ASG).</p>
+    <p>
+      • Designed RESTful API architectures with Lucidchart, ensuring REST compliance and clear workflow visualization.
+    </p>
+    <p>
+      • Implemented 17 REST APIs into scalable serverless solutions using AWS Serverless Application Model (SAM) and Lambda, integrated with API Gateway, achieving sub-3-second response times.
+    </p>
+    <p>
+      • Implemented secure storage and retrieval of large files in Amazon S3 using pre-signed URLs. Created and stored various types of data within 5 NoSQL tables, implemented GSI for efficient data retrieval in AWS DynamoDB.
+    </p>
+    <p>
+      • Authored unit tests and integration tests for 42 Lambda functions using Pytest and Moto, slashing post-deployment issues by 90%. Built and maintained CI/CD pipeline via AWS SAM and GitHub Actions.
+    </p>
+    <p>
+      • Deployed frontend applications on AWS Amplify and streamlined API documentation in Postman for frontend teams, saving 70% communication time.
+    </p>
+    </>
     ),
   },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
+  // {
+  //   date: 'March 2007 - February 2010',
+  //   location: 'Garage Startup Studio',
+  //   title: 'Junior bug fixer',
+  //   content: (
+  //     <p>
+  //       Describe work, special projects, notable achievements, what technologies you have been working with, and
+  //       anything else that would be useful for an employer to know.
+  //     </p>
+  //   ),
+  // },
 ];
 
 /**
@@ -365,9 +405,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/QiangYuan0828'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/qiang-yuan-622014221/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/thomasyuan97/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
