@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Qiang Yuan\'s Homepage',
+  description: "Qiang Yuan's personal website to introduce himself",
 };
 
 /**
@@ -69,41 +69,32 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Qiang Yuan.`,
+  name: `Hi, I'm Qiang Yuan.`,
   description: (
     <>
-      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I graduated from ECE and CS concurrent master on Dec, 2023 from University of Florida, currently I am a <strong className="text-stone-100">Cloud Engineer</strong> contractor, currently working
-        at <strong className="text-stone-100">Novineer, Inc</strong> helping build a Lambda, S3, dyanmoDB, and write test, maintain CICD pipeline. I am open to any remote/onsite fulltime software Engineer in US.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I would like to learning <strong className="text-stone-100">Cooking</strong>,
-         <strong className="text-stone-100">Workout</strong>, or learning newest technologies in {' '}
-        <strong className="text-stone-100">ML and Could</strong>.
-      </p> */}
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  I graduated with  <strong className="text-stone-100">a concurrent Master of Science in CS and ECE</strong> in December 2023 from the <strong className="text-stone-100">University of Florida</strong>. 
-  Currently, I am a <strong className="text-stone-100">Cloud Engineer</strong> contractor at <strong className="text-stone-100">Novineer, Inc.</strong>, 
-  where I contribute to building Lambda functions, managing S3 storage, and DynamoDB, as well as writing tests and maintaining CI/CD pipelines. 
-</p>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
- I am actively seeking a full-time position as a <strong className="text-emphasis">Software Engineer</strong>, open to both remote and onsite opportunities in the US. In my leisure, I enjoy learning about <strong className="text-stone-100">cooking</strong> and <strong className="text-stone-100">workout</strong> routines, as well as keeping up with the latest technologies in <strong className="text-stone-100">Machine Learning and Cloud Computing</strong>.
+  I'm a <strong className="text-stone-100">Production Engineer at Webull Technologies</strong>, based in St. Pete, FL.
+  
+  I help build a <strong className="text-stone-100">JAVA-based</strong> monitoring platform, monitor system by <strong className="text-stone-100">Grafana and Prometheus</strong>, configure and optimize services in <strong className="text-stone-100">Kubernetes</strong> and investigate online <strong className="text-stone-100">FIX protocol</strong> issues and recover Mysql database.
+  
+  Additionally, I organized the PE team to guarantee 7/24 on-call support. Previously, I was a <strong className="text-stone-100">Cloud Engineer</strong> contractor at <strong className="text-stone-100">Novineer, Inc.</strong>, where I contributed to building <strong className="text-stone-100">Lambda functions</strong>, managing <strong className="text-stone-100">S3 storage</strong> and <strong className="text-stone-100">DynamoDB</strong>, as well as writing tests and maintaining <strong className="text-stone-100">CI/CD pipelines</strong>.
 </p>
-      {/* <div className="technical-skills">
-  <h1 className="section-title text-stone-200">Technical Skills</h1>
-  <ul className="skills-list text-stone-200">
-    <li><strong>Programming Languages:</strong> Java, Python, C/C++, JavaScript, Linux Shell scripting</li>
-    <li><strong>Tools & Frameworks:</strong> Git, AWS, Docker, Maven, Node.js, Anaconda, Pthread, Pytorch</li>
-    <li><strong>Database:</strong> Oracle, MySQL, DynamoDB, SQLite</li>
-  </ul>
-</div> */}
 
+<p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+  In my leisure time, I'm passionate about exploring all <strong className="text-stone-100">cutting-edge technologies</strong>.
+  Recently, I've built a personal stock analysis system using <strong className="text-stone-100">yfinance</strong> and <strong className="text-stone-100">prompt engineering</strong> to refine trading strategies—achieving a 60% annualized return in 2025 through iterative experimentation.
+  </p>
+  <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+  Beyond tech, I enjoy gourmet explorations—researching a new recipe weekly or discovering local restaurants.
+  As an scuba diver with <strong className="text-stone-100">PADI Advanced Open Water diver (AOW)</strong> and <strong className="text-stone-100">PADI Enriched Air diver (Nitrax)</strong> certifications, I thrive on underwater adventures.
+  I'm also a dedicated skier aiming for <strong className="text-stone-100">AASI Level 1 snowboard</strong> certification to to guide and share snowboarding adventures with fellow enthusiasts.
+</p>
     </>
     
   ),
   actions: [
     {
-      href: '/assets/QiangYuan_24_1.pdf',
+      href: '/assets/QiangYuanResume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -121,16 +112,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `My rigorous self-discipline propelled me to become the first in my family to attend university, and my strong sense of responsibility has made me a reliable partner in the eyes of friends and colleagues. Drawing from my student days organizing group activities and learning from exceptional mentors in the workplace, I've honed the ability to pinpoint key issues in chaotic scenarios and lead teams to swiftly identify and resolve them.`,
   aboutItems: [
-    {label: 'Location', text: 'Gainesville, FL', Icon: MapIcon},
-    {label: 'Age', text: '26', Icon: CalendarIcon},
+    {label: 'Location', text: 'Pinellas Park, FL', Icon: MapIcon},
+    {label: 'Age', text: '28', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
-    {label: 'Interests', text: 'Cooking, workout, snowboard, diving', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Investment, Cooking, Snowboard, Diving', Icon: SparklesIcon},
+    {label: 'Employment', text: ' Webull Technoligies', Icon: BuildingOffice2Icon},
     {label: 'Study', text: 'University of FLorida', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'contractor of Novineer, inc.', Icon: BuildingOffice2Icon},
+    
   ],
 };
 
@@ -293,23 +283,42 @@ export const portfolioItems: PortfolioItem[] = [
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
+   {
+    date: 'Jan 2021 - Dec 2023',
+    location: 'University of Florida',
+    title: 'Concurrent master in Computer Science and Electrical & Computer Engineering',
+    content: <p> </p>,
+    //content: <p>Related Courses:</p>,
+  },
   {
     date: 'Sep 2015 - Jul 2019',
     location: 'Guangzhou University',
     title: 'Bachelor in Software Engineering',
-    content: <p>Related Course:</p>,
+    content: <p> </p>,
   },
-  {
-    date: 'Jan 2021 - Dec 2023',
-    location: 'University of Florida',
-    title: 'Concurrent master in Computer Science and Electrical & Computer Engineering',
-    content: <p>Related Courses:</p>,
-  },
+ 
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Sep 2023 - Present',
+    date: 'May 2025 - Present',
+    location: 'Webull Technologies',
+    title: 'Production Engineer',
+    content: (
+      <>
+        <p>• Contributed to the development and configuration of a Java-based monitoring and alerting platform built with Spring Boot and deployed via Docker, enabling real-time anomaly detection in business traffic.</p>
+        <p>• Proactively monitored system-wide infrastructure by Grafana and Prometheus, analyzing traffic, performance, and service availability to maintain 99.99% uptime.</p>
+        <p>• Configured and optimized Kubernetes-based service nodes, designing autoscaling strategies to efficiently handle traffic fluctuations and enhance system resilience.</p>
+        <p>• Led incident response for production alerts, leveraging Prometheus metrics and ELK logs to identify root causes and restore services, reducing average downtime by 70% to under 10 minutes.</p>
+        <p>• Queried and corrected abnormal data entries in MySQL and MongoDB, ensuring data consistency and integrity across services.</p>
+        <p>• Maintained FIX Engine monitoring and recovery; diagnosed and resolved TCP connection issues and supported secure SFTP data transfers to ensure 100% reliable data exchange.</p>
+        <p>• Automated data validation and format conversions using Python scripts during system migrations and upgrades, reducing manual intervention and error rates by 98%.</p>
+        <p>• Diagnosed and resolved technical issues from user feedback, tracing problems through ELK logs and application code, reducing ticket resolution time by 80% and preventing recurrence through proactive fixes.</p>
+      </>
+    ),
+  },
+  {
+    date: 'Sep 2023 - Mar 2024',
     location: 'Novineer, Inc',
     title: 'Cloud Engineer',
     content: (
@@ -333,17 +342,6 @@ export const experience: TimelineItem[] = [
     </>
     ),
   },
-  // {
-  //   date: 'March 2007 - February 2010',
-  //   location: 'Garage Startup Studio',
-  //   title: 'Junior bug fixer',
-  //   content: (
-  //     <p>
-  //       Describe work, special projects, notable achievements, what technologies you have been working with, and
-  //       anything else that would be useful for an employer to know.
-  //     </p>
-  //   ),
-  // },
 ];
 
 /**
@@ -385,7 +383,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Gainesville FL, US',
+      text: 'Pinellas Park FL, US',
       href: 'https://www.google.ca/maps/place/Gainesville,+FL/@29.686394,-82.4023193,12z/',
     },
     {
