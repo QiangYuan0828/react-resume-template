@@ -73,16 +73,16 @@ export const heroData: Hero = {
   description: (
     <>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  I'm a <strong className="text-stone-100">Production Engineer at Webull Technologies</strong>, based in St. Pete, FL.
+  I'm a <strong className="text-stone-100">Production Analyst at Webull Technologies</strong>, based in St. Pete, FL.
   
   I help build a <strong className="text-stone-100">JAVA-based</strong> monitoring platform, monitor system by <strong className="text-stone-100">Grafana and Prometheus</strong>, configure and optimize services in <strong className="text-stone-100">Kubernetes</strong> and investigate online <strong className="text-stone-100">FIX protocol</strong> issues and recover Mysql database.
   
-  Additionally, I organized the PE team to guarantee 7/24 on-call support. Previously, I was a <strong className="text-stone-100">Cloud Engineer</strong> contractor at <strong className="text-stone-100">Novineer, Inc.</strong>, where I contributed to building <strong className="text-stone-100">Lambda functions</strong>, managing <strong className="text-stone-100">S3 storage</strong> and <strong className="text-stone-100">DynamoDB</strong>, as well as writing tests and maintaining <strong className="text-stone-100">CI/CD pipelines</strong>.
+  Additionally, I organized the PE team to guarantee 7/24 on-call support. Previously, I was a <strong className="text-stone-100">Cloud Analyst</strong> contractor at <strong className="text-stone-100">Novineer, Inc.</strong>, where I contributed to building <strong className="text-stone-100">Lambda functions</strong>, managing <strong className="text-stone-100">S3 storage</strong> and <strong className="text-stone-100">DynamoDB</strong>, as well as writing tests and maintaining <strong className="text-stone-100">CI/CD pipelines</strong>.
 </p>
 
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
   In my leisure time, I'm passionate about exploring all <strong className="text-stone-100">cutting-edge technologies</strong>.
-  Recently, I've built a personal stock analysis system using <strong className="text-stone-100">yfinance</strong> and <strong className="text-stone-100">prompt engineering</strong> to refine trading strategies—achieving a 60% annualized return in 2025 through iterative experimentation.
+  Recently, I've built a personal stock analysis system using <strong className="text-stone-100">yfinance</strong> and <strong className="text-stone-100">prompt Analysting</strong> to refine trading strategies—achieving a 60% annualized return in 2025 through iterative experimentation.
   </p>
   <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
   Beyond tech, I enjoy gourmet explorations—researching a new recipe weekly or discovering local restaurants.
@@ -286,14 +286,14 @@ export const education: TimelineItem[] = [
    {
     date: 'Jan 2021 - Dec 2023',
     location: 'University of Florida',
-    title: 'Concurrent master in Computer Science and Electrical & Computer Engineering',
+    title: 'Concurrent master in Computer Science and Electrical & Computer Analysting',
     content: <p> </p>,
     //content: <p>Related Courses:</p>,
   },
   {
     date: 'Sep 2015 - Jul 2019',
     location: 'Guangzhou University',
-    title: 'Bachelor in Software Engineering',
+    title: 'Bachelor in Software Analysting',
     content: <p> </p>,
   },
  
@@ -301,9 +301,9 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'May 2025 - Present',
+    date: 'May 2024 - Present',
     location: 'Webull Technologies',
-    title: 'Production Engineer',
+    title: 'Production Analyst',
     content: (
       <>
         <p>• Contributed to the development and configuration of a Java-based monitoring and alerting platform built with Spring Boot and deployed via Docker, enabling real-time anomaly detection in business traffic.</p>
@@ -320,7 +320,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'Sep 2023 - Mar 2024',
     location: 'Novineer, Inc',
-    title: 'Cloud Engineer',
+    title: 'Cloud Analyst',
     content: (
       <>
       <p> • Orchestrated AWS Elastic Container Service (ECS) deployments, optimizing Docker container efficiency and scalability with task definitions and Auto Scaling Groups (ASG).</p>
@@ -357,7 +357,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Shery Guan',
-      text: "I have had the pleasure to know Qiang at UF in the engineering school and I must say, his dedication and expertise impressed me. When doing tasks together, Qiang is always willing to share his insight and executes tasks with patience.",
+      text: "I have had the pleasure to know Qiang at UF in the Analysting school and I must say, his dedication and expertise impressed me. When doing tasks together, Qiang is always willing to share his insight and executes tasks with patience.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     // {
