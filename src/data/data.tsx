@@ -118,7 +118,7 @@ export const aboutData: About = {
     {label: 'Age', text: '28', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
     {label: 'Interests', text: 'Investment, Cooking, Snowboard, Diving', Icon: SparklesIcon},
-    {label: 'Employment', text: ' Webull Technoligies', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: ' Webull Technologies', Icon: BuildingOffice2Icon},
     {label: 'Study', text: 'University of FLorida', Icon: AcademicCapIcon},
     
   ],
@@ -318,7 +318,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'Sep 2023 - Mar 2024',
+    date: 'Sep 2023 - Dec 2023, Jan 2024 - Mar 2024',
     location: 'Novineer, Inc',
     title: 'Cloud Analyst',
     content: (
