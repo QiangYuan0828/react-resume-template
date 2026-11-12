@@ -73,17 +73,11 @@ export const heroData: Hero = {
   description: (
     <>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  I'm a <strong className="text-stone-100">Production Analyst at Webull Technologies, Inc.</strong> in St. Petersburg, FL.
+  I’m a <strong className="text-stone-100">Production Analyst at Webull Technologies, Inc.</strong> in St. Petersburg, FL.
 </p>
 
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  In my leisure time, I'm passionate about exploring all <strong className="text-stone-100">cutting-edge technologies</strong>.
-  Recently, I've built a personal stock analysis system using <strong className="text-stone-100">yfinance</strong> and <strong className="text-stone-100">prompt engineering</strong> to refine trading strategies—achieving a 60% annualized return in 2025 through iterative experimentation.
-  </p>
-  <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  Beyond tech, I enjoy gourmet explorations—researching a new recipe weekly or discovering local restaurants.
-  As an scuba diver with <strong className="text-stone-100">PADI Advanced Open Water diver (AOW)</strong> and <strong className="text-stone-100">PADI Enriched Air diver (Nitrax)</strong> certifications, I thrive on underwater adventures.
-  I'm also a dedicated skier aiming for <strong className="text-stone-100">AASI Level 1 snowboard</strong> certification to to guide and share snowboarding adventures with fellow enthusiasts.
+  Outside of work, I enjoy learning about investing, trying new recipes, and discovering local restaurants. I also love scuba diving and snowboarding.
 </p>
     </>
     
