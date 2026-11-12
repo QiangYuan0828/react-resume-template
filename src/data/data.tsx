@@ -74,10 +74,6 @@ export const heroData: Hero = {
     <>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
   I'm a <strong className="text-stone-100">Production Analyst at Webull Technologies, Inc.</strong> in St. Petersburg, FL.
-  
-  I support software releases, monitor backend trading systems with <strong className="text-stone-100">Prometheus, Grafana, and ELK</strong>, troubleshoot <strong className="text-stone-100">FIX</strong> sessions and production incidents, and automate operational tasks with <strong className="text-stone-100">Python, SQL, and Bash</strong>. I also participate in an on-call rotation for evening and weekend support.
-  
-  Previously, I worked as a <strong className="text-stone-100">Cloud Engineer (Contract Role)</strong> at <strong className="text-stone-100">Novineer Inc.</strong>, where I maintained Python services on AWS, built REST APIs, and wrote automated tests for Lambda functions.
 </p>
 
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -301,17 +297,73 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'May 2024 - Present',
-    location: 'Webull Technologies, Inc.',
+    date: 'May 6, 2024 – Present',
+    location: 'Webull Technologies, Inc. · St. Petersburg, FL',
     title: 'Production Analyst',
     content: (
       <>
-        <p>• Work with developers in GitLab to resolve code conflicts and coordinate production releases with affected teams.</p>
-        <p>• Set up and maintain automated build, test, and deployment processes using Jenkins and Docker. Document operational processes in runbooks, troubleshooting guides, and onboarding materials.</p>
-        <p>• Monitor backend trading systems with Prometheus, Grafana, and ELK. Help maintain an internal Java monitoring and alerting platform built with Spring Boot and Docker.</p>
-        <p>• Maintain production FIX sessions and diagnose session and message issues. Assess and escalate incidents, investigate root causes, restore service, and participate in the on-call rotation.</p>
-        <p>• Automate operational tasks such as data validation and format migrations with Python, SQL, and Bash. Investigate data discrepancies in MySQL and across trading and post-trade systems.</p>
-        <p>• Monitor scheduled jobs and reports for start-of-day file processing, corporate actions, and post-trade reconciliation.</p>
+        <p>Python, Java, GitLab, SQL, FIX, Grafana, Prometheus, ELK, Jenkins</p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>
+            Work with developers to manage version control and resolve code conflicts. 10%
+            <ul className="list-[circle] pl-5">
+              <li>In Gitlab</li>
+            </ul>
+          </li>
+          <li>
+            Support the release of new software updates by coordinating and communicating changes. 10%
+            <ul className="list-[circle] pl-5">
+              <li>Support the release of new software updates by coordinating and communicating production changes to affected teams.</li>
+            </ul>
+          </li>
+          <li>
+            Write scripts or tools to automate manual tasks. 10%
+            <ul className="list-[circle] pl-5">
+              <li>Write Python, SQL, and Bash scripts and tools to automate manual, time-sensitive operation tasks, including data validation and format migrations and upgrades.</li>
+              <li>Use commercially available AI tools to assist with writing automation scripts and reviewing logs during incident triage; this does not involve AI research or developing or training AI models.</li>
+            </ul>
+          </li>
+          <li>
+            Document processes and assist in creating guides for team use. 10%
+            <ul className="list-[circle] pl-5">
+              <li>Document operational processes and create runbooks, troubleshooting guides, and onboarding materials for team use.</li>
+            </ul>
+          </li>
+          <li>
+            Set up and maintenance of automated build, test, and deployment processes. 15%
+            <ul className="list-[circle] pl-5">
+              <li>Set up and maintain automated build, test, and deployment processes using Jenkins and Docker.</li>
+              <li>Maintain production FIX engine sessions with exchanges and market participants; diagnose session-level issues (logon, heartbeat, sequence recovery) and application-level message issues to keep order flow stable.</li>
+            </ul>
+          </li>
+          <li>
+            Monitor the health and performance of backend systems and applications. 15%
+            <ul className="list-[circle] pl-5">
+              <li>Monitor the health and performance of backend trading systems and applications using Prometheus, Grafana, and the ELK stack.</li>
+              <li>Contribute to and maintain an internal Java-based monitoring and alerting platform (Spring Boot, Docker) and Grafana dashboards for real-time service APIs.</li>
+            </ul>
+          </li>
+          <li>
+            Track and report system issues using internal tools, escalating when necessary. 5%
+            <ul className="list-[circle] pl-5">
+              <li>Track and report system issues using internal tools, assess severity, and escalate to development teams when necessary.</li>
+              <li>Investigate and resolve data discrepancies between post-trade and sales &amp; trading systems and data inconsistencies in MySQL databases using SQL and Python.</li>
+            </ul>
+          </li>
+          <li>
+            Respond to production issues and troubleshooting incidents as they arise. 5%
+            <ul className="list-[circle] pl-5">
+              <li>Respond to production issues and troubleshooting incidents as they arise, performing root cause analysis and restoring service.</li>
+            </ul>
+          </li>
+          <li>
+            Monitor scheduled tasks and reports to ensure successful completion. 10%
+            <ul className="list-[circle] pl-5">
+              <li>Monitor scheduled tasks and reports that include daily SOD file processing, corporate action events, and post-trade reconciliation reports, to ensure successful completion.</li>
+            </ul>
+          </li>
+          <li>Participate in an on-call rotation to provide support during evenings or weekends. 10%</li>
+        </ul>
       </>
     ),
   },
@@ -321,9 +373,12 @@ export const experience: TimelineItem[] = [
     title: 'Cloud Engineer (Contract Role)',
     content: (
       <>
-        <p>• Deployed and maintained Python services on Linux-based AWS EC2 and ECS using Docker and shell tools.</p>
-        <p>• Built 17 Python REST APIs with AWS Lambda, SAM, and API Gateway. Integrated S3 presigned URLs and DynamoDB and achieved response times under three seconds.</p>
-        <p>• Wrote unit and integration tests for 42 Python Lambda functions with Pytest and Moto, reducing post-deployment issues by 90%. Automated builds, tests, and deployments with AWS SAM and GitHub Actions.</p>
+        <p>Python, Linux, AWS, Docker, Git, CI/CD</p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>Deployed and maintained Python backend services across Linux-based AWS EC2/ECS environments, using Docker and shell-based tooling to configure, troubleshoot, and scale production workloads.</li>
+          <li>Built 17 REST APIs in Python using AWS Lambda, SAM, and API Gateway, integrating S3 pre-signed file access and DynamoDB data services while achieving sub-3-second API response times.</li>
+          <li>Developed unit and integration tests for 42 Python Lambda functions using Pytest and Moto, reducing post-deployment issues by 90%, and automated build, testing, and deployment workflows through AWS SAM and GitHub Actions.</li>
+        </ul>
       </>
     ),
   },
