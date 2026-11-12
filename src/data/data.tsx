@@ -73,16 +73,16 @@ export const heroData: Hero = {
   description: (
     <>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  I'm a <strong className="text-stone-100">Production Analyst at Webull Technologies</strong>, based in St. Pete, FL.
+  I'm a <strong className="text-stone-100">Production Analyst at Webull Technologies, Inc.</strong> in St. Petersburg, FL.
   
-  I help build a <strong className="text-stone-100">JAVA-based</strong> monitoring platform, monitor system by <strong className="text-stone-100">Grafana and Prometheus</strong>, configure and optimize services in <strong className="text-stone-100">Kubernetes</strong> and investigate online <strong className="text-stone-100">FIX protocol</strong> issues and recover Mysql database.
+  I support software releases, monitor backend trading systems with <strong className="text-stone-100">Prometheus, Grafana, and ELK</strong>, troubleshoot <strong className="text-stone-100">FIX</strong> sessions and production incidents, and automate operational tasks with <strong className="text-stone-100">Python, SQL, and Bash</strong>. I also participate in an on-call rotation for evening and weekend support.
   
-  Additionally, I organized the PE team to guarantee 7/24 on-call support. Previously, I was a <strong className="text-stone-100">Cloud Analyst</strong> contractor at <strong className="text-stone-100">Novineer, Inc.</strong>, where I contributed to building <strong className="text-stone-100">Lambda functions</strong>, managing <strong className="text-stone-100">S3 storage</strong> and <strong className="text-stone-100">DynamoDB</strong>, as well as writing tests and maintaining <strong className="text-stone-100">CI/CD pipelines</strong>.
+  Previously, I worked as a <strong className="text-stone-100">Cloud Engineer (Contract Role)</strong> at <strong className="text-stone-100">Novineer Inc.</strong>, where I maintained Python services on AWS, built REST APIs, and wrote automated tests for Lambda functions.
 </p>
 
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
   In my leisure time, I'm passionate about exploring all <strong className="text-stone-100">cutting-edge technologies</strong>.
-  Recently, I've built a personal stock analysis system using <strong className="text-stone-100">yfinance</strong> and <strong className="text-stone-100">prompt Analysting</strong> to refine trading strategies—achieving a 60% annualized return in 2025 through iterative experimentation.
+  Recently, I've built a personal stock analysis system using <strong className="text-stone-100">yfinance</strong> and <strong className="text-stone-100">prompt engineering</strong> to refine trading strategies—achieving a 60% annualized return in 2025 through iterative experimentation.
   </p>
   <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
   Beyond tech, I enjoy gourmet explorations—researching a new recipe weekly or discovering local restaurants.
@@ -118,8 +118,8 @@ export const aboutData: About = {
     {label: 'Age', text: '28', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
     {label: 'Interests', text: 'Investment, Cooking, Snowboard, Diving', Icon: SparklesIcon},
-    {label: 'Employment', text: ' Webull Technologies', Icon: BuildingOffice2Icon},
-    {label: 'Study', text: 'University of FLorida', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Webull Technologies, Inc.', Icon: BuildingOffice2Icon},
+    {label: 'Study', text: 'University of Florida', Icon: AcademicCapIcon},
     
   ],
 };
@@ -286,14 +286,14 @@ export const education: TimelineItem[] = [
    {
     date: 'Jan 2021 - Dec 2023',
     location: 'University of Florida',
-    title: 'Concurrent master in Computer Science and Electrical & Computer Analysting',
+    title: 'Dual Master of Science Degrees in Computer Science and Electrical and Computer Engineering',
     content: <p> </p>,
     //content: <p>Related Courses:</p>,
   },
   {
     date: 'Sep 2015 - Jul 2019',
     location: 'Guangzhou University',
-    title: 'Bachelor in Software Analysting',
+    title: 'Bachelor of Engineering in Software Engineering',
     content: <p> </p>,
   },
  
@@ -302,44 +302,29 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'May 2024 - Present',
-    location: 'Webull Technologies',
+    location: 'Webull Technologies, Inc.',
     title: 'Production Analyst',
     content: (
       <>
-        <p>• Contributed to the development and configuration of a Java-based monitoring and alerting platform built with Spring Boot and deployed via Docker, enabling real-time anomaly detection in business traffic.</p>
-        <p>• Proactively monitored system-wide infrastructure by Grafana and Prometheus, analyzing traffic, performance, and service availability to maintain 99.99% uptime.</p>
-        <p>• Configured and optimized Kubernetes-based service nodes, designing autoscaling strategies to efficiently handle traffic fluctuations and enhance system resilience.</p>
-        <p>• Led incident response for production alerts, leveraging Prometheus metrics and ELK logs to identify root causes and restore services, reducing average downtime by 70% to under 10 minutes.</p>
-        <p>• Queried and corrected abnormal data entries in MySQL and MongoDB, ensuring data consistency and integrity across services.</p>
-        <p>• Maintained FIX Engine monitoring and recovery; diagnosed and resolved TCP connection issues and supported secure SFTP data transfers to ensure 100% reliable data exchange.</p>
-        <p>• Automated data validation and format conversions using Python scripts during system migrations and upgrades, reducing manual intervention and error rates by 98%.</p>
-        <p>• Diagnosed and resolved technical issues from user feedback, tracing problems through ELK logs and application code, reducing ticket resolution time by 80% and preventing recurrence through proactive fixes.</p>
+        <p>• Work with developers in GitLab to resolve code conflicts and coordinate production releases with affected teams.</p>
+        <p>• Set up and maintain automated build, test, and deployment processes using Jenkins and Docker. Document operational processes in runbooks, troubleshooting guides, and onboarding materials.</p>
+        <p>• Monitor backend trading systems with Prometheus, Grafana, and ELK. Help maintain an internal Java monitoring and alerting platform built with Spring Boot and Docker.</p>
+        <p>• Maintain production FIX sessions and diagnose session and message issues. Assess and escalate incidents, investigate root causes, restore service, and participate in the on-call rotation.</p>
+        <p>• Automate operational tasks such as data validation and format migrations with Python, SQL, and Bash. Investigate data discrepancies in MySQL and across trading and post-trade systems.</p>
+        <p>• Monitor scheduled jobs and reports for start-of-day file processing, corporate actions, and post-trade reconciliation.</p>
       </>
     ),
   },
   {
-    date: 'Sep 2023 - Dec 2023, Jan 2024 - Mar 2024',
-    location: 'Novineer, Inc',
-    title: 'Cloud Analyst',
+    date: 'Sep 29 – Dec 11, 2023 and Jan 31 – Mar 18, 2024',
+    location: 'Novineer Inc. · Daytona Beach, FL (Remote)',
+    title: 'Cloud Engineer (Contract Role)',
     content: (
       <>
-      <p> • Orchestrated AWS Elastic Container Service (ECS) deployments, optimizing Docker container efficiency and scalability with task definitions and Auto Scaling Groups (ASG).</p>
-    <p>
-      • Designed RESTful API architectures with Lucidchart, ensuring REST compliance and clear workflow visualization.
-    </p>
-    <p>
-      • Implemented 17 REST APIs into scalable serverless solutions using AWS Serverless Application Model (SAM) and Lambda, integrated with API Gateway, achieving sub-3-second response times.
-    </p>
-    <p>
-      • Implemented secure storage and retrieval of large files in Amazon S3 using pre-signed URLs. Created and stored various types of data within 5 NoSQL tables, implemented GSI for efficient data retrieval in AWS DynamoDB.
-    </p>
-    <p>
-      • Authored unit tests and integration tests for 42 Lambda functions using Pytest and Moto, slashing post-deployment issues by 90%. Built and maintained CI/CD pipeline via AWS SAM and GitHub Actions.
-    </p>
-    <p>
-      • Deployed frontend applications on AWS Amplify and streamlined API documentation in Postman for frontend teams, saving 70% communication time.
-    </p>
-    </>
+        <p>• Deployed and maintained Python services on Linux-based AWS EC2 and ECS using Docker and shell tools.</p>
+        <p>• Built 17 Python REST APIs with AWS Lambda, SAM, and API Gateway. Integrated S3 presigned URLs and DynamoDB and achieved response times under three seconds.</p>
+        <p>• Wrote unit and integration tests for 42 Python Lambda functions with Pytest and Moto, reducing post-deployment issues by 90%. Automated builds, tests, and deployments with AWS SAM and GitHub Actions.</p>
+      </>
     ),
   },
 ];
@@ -357,7 +342,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Shery Guan',
-      text: "I have had the pleasure to know Qiang at UF in the Analysting school and I must say, his dedication and expertise impressed me. When doing tasks together, Qiang is always willing to share his insight and executes tasks with patience.",
+      text: "I have had the pleasure to know Qiang at UF in the Engineering school and I must say, his dedication and expertise impressed me. When doing tasks together, Qiang is always willing to share his insight and executes tasks with patience.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     // {
